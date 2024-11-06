@@ -1,0 +1,32 @@
+/* Mengatur video latar belakang */
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+
+/* Mengatur tampilan container */
+.container {
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5); /* Transparansi latar belakang */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-top: 40px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+#reservation-form label {
+    color: #ffffff;
+}
+
+#room-list, #reservation-list {
+    color: #ffffff;
+}
